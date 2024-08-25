@@ -1,0 +1,82 @@
+@import "../../sass/abstract/variables";
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: $color-white;
+    .servicesCont{
+        width: $container;
+        margin-top: 10vh;
+        padding: 0px 20px;
+        .titleServices{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 100px;
+            h3{
+                font-size: 2rem;
+            }
+            h2{
+                font-size: 3rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: $color-secondary;
+                span{
+                    position: relative;
+                }
+            }
+        }
+        .cardContainer{
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            gap: 20px;
+            .card{
+                max-width: 329px;
+                min-height: 290px;
+                border-radius: 1rem;
+                background: $color-terceary;
+                padding: 20px 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                text-align: center;
+                
+                h2{
+                    font-size: 1.4rem;
+                    color: $color-secondary;
+                    position: relative;
+                    span{
+                    }
+                }
+                p{
+                    font-size: 16px;
+                }
+                h3{
+                    font-size: 1.5rem;
+                    position: relative;
+                }
+                button{
+                    padding: 15px 20px;
+                    background-color: $color-gray;
+                    color: white;
+                    border-radius: 0.2rem;
+                    cursor: pointer;
+                }
+            }
+            @media screen and (min-width: $medium) {
+                grid-template-columns: 329px 329px;
+                grid-template-rows: auto;
+            }
+            @media screen and (min-width: $x-large) {
+                grid-template-columns: 329px 329px 329px;
+                grid-template-rows: auto;
+            }
+            @media screen and (min-width: 1400px) {
+                grid-template-columns: 329px 329px 329px 329px;
+                
+            }
+        }
+    }
+}

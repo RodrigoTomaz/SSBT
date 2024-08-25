@@ -1,0 +1,79 @@
+@import "../../../sass/abstract/variables";
+
+.prodStikyEffect{
+    width: 100%;
+    height: 300vh;
+    
+    .stiky{
+        width: 100%;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        
+    }
+    .element{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        h2{
+            position: absolute;
+            color: $color-terceary;
+            text-transform: uppercase;
+            font-weight: 600;
+            z-index: 10;
+        }
+
+        .imageContainer{
+            position: relative;
+            width: 25vw;
+            height: 25vh;
+
+            img{
+                object-fit: cover;
+            }
+        }
+        &:nth-of-type(2){
+            .imageContainer{
+                top: -27vh;
+                width: 30vw;
+            }
+            h2{
+                display: none;
+            }
+        }
+        &:nth-of-type(3){
+            .imageContainer{
+                top: 27vh;
+                width: 30vw;
+            }
+            h2{
+                display: none;
+            }
+        }
+        &:nth-of-type(4){
+            .imageContainer{
+                left: 29vw;
+                width: 30vw;
+            }
+            h2{
+                display: none;
+            }
+        }
+        &:nth-of-type(5){
+            .imageContainer{
+                left: -29vw;
+                width: 30vw;
+            }
+            h2{
+                display: none;
+            }
+        }
+    }
+}

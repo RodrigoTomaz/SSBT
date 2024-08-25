@@ -1,0 +1,80 @@
+@import "../../sass/abstract/variables";
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .aboutContainer{
+        width: $container;
+        padding: 100px 20px 0 20px;
+        position: relative;
+        .aboutComentary{
+            .aboutTitle{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 50px;
+                p{
+                    font-size: 3rem;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: $color-secondary;
+                    span{
+                        position: relative;
+                    }
+                }
+                h2{
+                    font-size: 2rem;
+                    color: $color-black;
+                }
+            }
+            p{
+                margin-top: 20px;
+            }
+        }
+        .aboutDescription{
+            width: 100%;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            .aboutDescItem{
+                display: flex;
+                gap: 10px;
+
+                div{
+                    h3{
+                        font-size: 1.3rem;
+                        font-weight: 500;  
+                        color: $color-black;  
+                    }
+                    p{
+                        font-size: 16px;
+                        letter-spacing: 1px;
+                        word-spacing: 3px;
+                        line-height: 30px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+            @media screen and (max-width: $large) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                row-gap: 50px;
+            }
+            @media screen and (max-width: $small) {
+                display: grid;
+                row-gap: 50px;
+                grid-template-columns: 1fr;
+            }
+        }
+        #imageAbout{
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+

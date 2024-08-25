@@ -1,0 +1,68 @@
+@import "../../sass/abstract/variables";
+
+#footer{
+    width: 100%;
+    background-color: $color-black;
+    display: flex;
+    justify-content: center;
+
+    .footerContainer{
+        width: $container;
+        padding: 50px 20px;
+
+        .footerContent{
+            display: grid;
+            gap: 50px;
+            .footerItem{
+                .footerLogo{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    div{
+                        h2{
+                            color: $color-white;
+                            font-size: 30px;
+                        }
+                        h2.colorLogo{
+                            color: $color-secondary;
+                        }
+                    }
+
+                    @media screen and (min-width: $medium) {
+                        justify-content: start;
+                    }
+                }
+
+                h2{
+                    font-size: 1.5rem;
+                    color: $color-secondary;
+                }
+                p{
+                    padding-right: 200px;
+                }
+                div.footerLink{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 20px;
+                    gap: 20px;
+
+                    a{
+                        font-size: 18px;
+                        color: $color-white;
+                    }
+                }
+            }
+
+            @media screen and (min-width: $medium) {
+                grid-template-columns: 1fr 300px;
+            }
+            @media screen and (min-width: $large) {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+@import "../../sass/abstract/variables";
+
+.contact {
+    width: 100%;
+    .contactContainer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        padding: 10px 20px;
+
+        .contactItem{
+            max-width: 800px;
+            
+            .contactTitle{
+                margin-bottom: 1rem;
+                display: grid;
+                gap: 10px;
+
+                h2{
+                    font-size: 2rem;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: $color-secondary;
+                }
+            }
+            .cardContact{
+                display: grid;
+                gap: 10px;
+                p{
+                    padding: 5px;
+                    color: $color-white;
+                    background-color: $color-secondary;
+                }
+                .contactLocation{
+                    margin-top: 10px;
+                    width: 100%;
+                    text-align: center;
+                    h2{
+                        font-size: 1.5rem;
+                        color: $color-secondary;
+                        margin-bottom: 20px;
+                    }
+                    iframe{
+                        width: 100%;
+                        min-height: 300px;
+                        max-height: 200px;
+                        border-radius: 1rem;
+                        overflow: hidden;
+                        border: 1px solid $color-secondary;
+                    }
+                }
+            }
+        }
+        .contactForm{
+            padding: 40px;
+            border: 1px solid $color-primary; 
+            border-radius: 1rem;
+            height: 100%;
+            h2{
+                color: $color-secondary;
+                font-size: 1.5rem;
+            }
+
+            input{
+                width: 100%;
+                border: 1px solid $color-secondary;
+                padding: 15px;
+                outline: none;
+                margin-top: 15px;
+                border-radius: .2rem;
+
+            }
+            div.inputGroup{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+            }
+            textarea{
+                width: 100%;
+                min-height: 200px;
+                max-height: 200px;
+                border: 1px solid $color-secondary;
+                border-radius: .2rem;
+                margin-top: 15px;
+                outline: none;
+                padding: 10px;
+            }
+            .btnSubmit{
+                width: 100%;
+                margin-top: 15px;
+                background: $color-secondary;
+                border-radius: .2rem;
+                padding: 20px;
+                color: $color-white;
+                font-weight: 500;
+
+            }
+        }
+
+        @media screen and (max-width: 1500px) {
+            flex-direction: column;
+            gap: 20px;
+
+            .contactItem{
+                width: 100%;
+                max-width: none;
+            }
+            .contactForm{
+                width: 100%;
+                textarea{
+                    min-height: 100px;
+                    max-height: 100px;
+                }
+            }
+        }
+    }
+}
