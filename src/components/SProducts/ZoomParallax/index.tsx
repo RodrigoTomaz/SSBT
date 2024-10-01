@@ -33,23 +33,28 @@ const index = () => {
     const images = [
         {
             src: Image1,
-            scale: scale4
+            scale: scale4,
+            alt: "Imagem Produto 1"
         }, 
         {
             src: Image2,
-            scale: scale5
+            scale: scale5,
+            alt: "Imagem Produto 1"
         },
         {
             src: Image2,
-            scale: scale8
+            scale: scale8,
+            alt: "Imagem Produto 1"
         },
         {
             src: Image2,
-            scale: scale9
+            scale: scale9,
+            alt: "Imagem Produto 1"
         },
         {
             src: Image2,
-            scale: scale5
+            scale: scale5,
+            alt: "Imagem Produto 1"
         }
     ];
 
@@ -59,7 +64,7 @@ const index = () => {
                 <div className={ styles.element }>
 
                     {
-                        images.map(({ src, scale }, index) => {
+                        images.map(({ src, scale, alt }, index) => {
                             return (
                                 <motion.div style={{ scale: scale }} className={ styles.element }>
                                     <motion.h2
@@ -68,6 +73,8 @@ const index = () => {
                                         <Image 
                                             src={ src }
                                             fill={ true }
+                                            alt={alt}
+                                            key={index}
                                         />
                                     </div>
                                 </motion.div>

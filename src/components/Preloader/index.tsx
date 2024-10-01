@@ -23,7 +23,7 @@ const index = () => {
   const textEffect = useRef<Array<string>>([]);
 
   // Function get letters
-  function getChar(word: string) {
+  function getChar(word: string): any {
     let chars: Array<object> = [];
     word.split("").forEach((char: string, index: number) => {
       chars.push(

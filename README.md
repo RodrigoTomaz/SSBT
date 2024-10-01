@@ -1,16 +1,46 @@
+# Projeto SSBT
+
+> Is a project create for show my knowledge as Front-end Developer.
+
+> É um projeto criado para mostrar meu conhecimento como Desenvolvedor Front-end.
+
+## 🛠 Used tools - Ferramentas Usadas
+
+### Framework 
+![Next](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+### Languages and Styles - Linguagens e Estilos
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Sass](https://img.shields.io/badge/Sass-000?style=for-the-badge&logo=sass)
+
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=RodrigoTomaz&layout=compact&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
+
+## Docs for to use this Project Next.js - Documentação para usar este Projeto Next.js
+
+1. Para você utilizar este projeto em sua máquina, Deverá fazer um clone do projeto jogando a pasta do repositório remoto para um repositório local usando o comando `git clone https://github.com/RodrigoTomaz/SSBT.git`.
+
+> For you use this project in your machine, should make a clone of the project playing the foulder of repository remote for a repository local using the comand `git clone https://github.com/RodrigoTomaz/SSBT.git`.
+
+2. Após clonar o repositório, deverá fazer a instalação das dependências do projeto, para isso abra o terminal com o cominho da pasta clonada e digite o seguinte comando `npm install`.
+
+> Before the to clone repository, should make the installs of dependencies of the project, for that, open the terminal with way of foulder cloned and white the follower comand `npm install`.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+
+## Getting Started - Começando
 
 First, run the development server:
 
+Primeiro, execulte o servidor de desenvolvimento:
+
 ```bash
 npm run dev
-# or
+# or - ou
 yarn dev
-# or
+# or - ou
 pnpm dev
-# or
+# or - ou
 bun dev
 ```
 
@@ -20,17 +50,14 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Learn More - Aprenda Mais
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para aprender mais sobre Next.js, dê uma olhada no seguinte recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Documentation - Documentação 
 
-## Deploy on Vercel
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API. Aprenda sobre as características Next.js e API.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial. Uma tutorial de interação Next.js.

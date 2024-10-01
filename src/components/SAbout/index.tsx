@@ -65,28 +65,28 @@ const index = () => {
               </div>
               <div className={ styles.aboutDescription }>
                   <div className={ styles.aboutDescItem }>
-                      <Image src={ ImageCurring1 } />
+                      <Image src={ ImageCurring1 } alt={"Image Seção Sobre"} />
                       <div>
                           <h3>Amet minim mollit</h3>
                           <p>Amet minim mollit non deserunt ullam co est sit.</p>
                       </div>
                   </div>
                   <div className={ styles.aboutDescItem }>
-                      <Image src={ ImageCurring2 } />
+                      <Image src={ ImageCurring2 } alt={"Image Seção Sobre"}/>
                       <div>
                           <h3>Amet minim mollit</h3>
                           <p>Amet minim mollit non deserunt ullam co est sit.</p>
                       </div>
                   </div>
                   <div className={ styles.aboutDescItem }>
-                      <Image src={ ImageCurring3 } />
+                      <Image src={ ImageCurring3 } alt={"Image Seção Sobre"}/>
                       <div>
                           <h3>Amet minim mollit</h3>
                           <p>Amet minim mollit non deserunt ullam co est sit.</p>
                       </div>
                   </div>
                   <div className={ styles.aboutDescItem }>
-                      <Image src={ ImageCurring4 } />
+                      <Image src={ ImageCurring4 } alt={"Image Seção Sobre"}/>
                       <div>
                           <h3>Amet minim mollit</h3>
                           <p>Amet minim mollit non deserunt ullam co est sit.</p>

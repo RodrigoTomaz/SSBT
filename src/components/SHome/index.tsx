@@ -27,7 +27,7 @@ const index = () => {
             });
 
             tl
-            .add(EffectHome(image1, textContainer))
+            .add(() => {EffectHome(image1, textContainer)})
         });
         return () => context.revert();
     }, []);

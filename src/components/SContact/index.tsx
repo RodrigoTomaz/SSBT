@@ -16,7 +16,7 @@ const index = () => {
                         <p>bethbeauty&#64;bethbeauty.com.br</p>
                         <div className={ styles.contactLocation }>
                             <h2>Visualizar no Mapa</h2>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.292430406654!2d-43.907988800000005!3d-19.8698701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69ae3b318238d%3A0xd1539ca66b220fc3!2sR.%20Santa%20Alian%C3%A7a%2C%20465%20-%20S%C3%A3o%20Marcos%2C%20Belo%20Horizonte%20-%20MG%2C%2031920-550!5e0!3m2!1spt-BR!2sbr!4v1722444466060!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.292430406654!2d-43.907988800000005!3d-19.8698701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69ae3b318238d%3A0xd1539ca66b220fc3!2sR.%20Santa%20Alian%C3%A7a%2C%20465%20-%20S%C3%A3o%20Marcos%2C%20Belo%20Horizonte%20-%20MG%2C%2031920-550!5e0!3m2!1spt-BR!2sbr!4v1722444466060!5m2!1spt-BR!2sbr" loading="lazy"></iframe>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import gsap from "gsap";
 
-export function EffectHome(image, textContainer){
+export function EffectHome(image: any, textContainer: any){
     const tl = gsap.timeline();
 
     tl
